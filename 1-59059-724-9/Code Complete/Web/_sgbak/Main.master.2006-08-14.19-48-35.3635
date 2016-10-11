@@ -1,0 +1,92 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Main.master.cs" Inherits="Main" %>
+
+
+
+<html>
+<head>
+<title>Home</title>
+<meta http-equiv="Content-Style-Type" content="text/css">
+<LINK HREF="style.css" TYPE="text/css" REL="stylesheet"></head>
+
+<body>
+<form id="form1" runat="server">
+    <div>
+        <asp:contentplaceholder id="contentplaceholderMain" runat="server">
+      
+<table width="100%" height="100%"  border="0" cellpadding="0" cellspacing="0" background="images/til_1.jpg">
+  <tr>
+    <td>&nbsp;</td>
+    <td width="490" align="left" valign="top"><table width="490"  border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="10" align="left" valign="top" background="images/rep_1.jpg" style="background-position:bottom "><img src="images/left_1.jpg" width="10" height="688"></td>
+        <td width="470" height="100%" align="left" valign="top"><table width="470" height="100%"  border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td height="164" align="left" valign="top" background="images/top_1.jpg"><div style="padding-left:156px; padding-top:69px"><a href="index.html"><img src="images/logo.jpg" width="159" height="36" border="0"></a></div></td>
+          </tr>
+          <tr>
+            <td height="43" align="left" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td><img src="images/left.jpg" width="10" height="43"></td>
+                <td><a href="index-1.html"><img src="images/about.jpg" width="114" height="43" border="0"></a></td>
+                <td><a href="index-2.html"><img src="images/history.jpg" width="112" height="43" border="0"></a></td>
+                <td><a href="index-3.html"><img src="images/winery.jpg" width="112" height="43" border="0"></a></td>
+                <td><a href="index-4.html"><img src="images/contacts.jpg" width="112" height="43" border="0"></a></td>
+                <td><img src="images/right.jpg" width="10" height="43"></td>
+              </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td height="172" align="left" valign="bottom" background="images/back_1.jpg"><img src="images/back_pic.jpg" width="102" height="55"></td>
+          </tr>
+          <tr>
+            <td height="100%" align="left" valign="top"><table width="100%" height="100%"  border="0" cellpadding="0" cellspacing="0" background="images/rep_3.jpg">
+              <tr align="left" valign="top">
+                <td width="10" background="images/rep_left.jpg"><img src="images/rep_left.jpg" width="10" height="1"></td>
+                <td height="100%"><table width="450" height="100%"  border="0" cellpadding="0" cellspacing="0" background="images/back_4.jpg" style="background-position:top right; background-repeat:no-repeat ">
+                  <tr>
+                    <td height="100%" align="left" valign="top" background="images/back_2.jpg" style="background-repeat:no-repeat; background-position:top left "><table width="450" height="100%"  border="0" cellpadding="0" cellspacing="0">
+                      <tr align="left" valign="bottom">
+                        <td width="184" height="100%"><div style="padding-left:25px; padding-top:0px"><img src="images/wine.jpg" width="142" height="61"></div></td>
+                        <td valign="top"><div style="padding-left:0px; padding-top:16px"><img src="images/welcome.jpg" width="168" height="31"></div>
+                          <div style="padding-left:3px; padding-top:14px; padding-right:47px; line-height:12px"><span class="style2">Sed perspiciatis unde voluptatem</span><span class="style1"> accusantium doloremque laudantium totam aperiam beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem sit aspernatur aut odit aut accusantium doloremque laudantium fugit sed quia.</span></div>
+                          <div style="padding-left:4px; padding-top:12px; padding-bottom:18px"><a href="#"><img src="images/histo.jpg" width="89" height="8" border="0"></a></div></td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                  <tr>
+                    <td height="100%" align="left" valign="top" background="images/rep_line.jpg" bgcolor="#F3E9BF" style="background-repeat: repeat-y; background-position:top left "><table width="100%"  border="0" cellpadding="0" cellspacing="0" background="images/rep_5.jpg" style="background-repeat:repeat-x; background-position:top ">
+                      <tr align="left" valign="top">
+                        <td width="180"><a href="#"><img src="images/back_7.jpg" width="180" height="138" border="0"></a></td>
+                        <td><div style="padding-left:3px; padding-top:18px"><img src="images/best.jpg" width="253" height="25"></div>
+                          <div style="padding-left:0px; padding-top:7px; padding-right:28px; padding-bottom:22px"><img src="images/pic_1.jpg" align="left" style="margin-right:15px ">
+                            <div style="padding-left:0px; padding-top:5px"><span class="style3">Sed perspiciatis unde voluptatem totam rem aperiam beatae dicta sunt explicabo. Nemo ipsam voluptatem sit aspernatur aperiam beatae quia.</span></div>
+                            <div style="padding-left:0px; padding-top:15px"><a href="#"><img src="images/read.jpg" border="0"></a></div>
+                          </div></td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                </table></td>
+                <td width="10" background="images/rep_right.jpg"><img src="images/rep_right.jpg" width="10" height="1"></td>
+              </tr>
+            </table></td>
+          </tr>
+        </table></td>
+        <td width="10" align="left" valign="top" background="images/rep_1.jpg" style="background-position:bottom "><img src="images/right_1.jpg" width="10" height="688"></td>
+      </tr>
+      <tr>
+        <td height="22" colspan="3" align="left" valign="top"><img src="images/bottom_1.jpg" width="490" height="22"></td>
+      </tr>
+    </table></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="100%">&nbsp;</td>
+    <td width="490" height="100%" align="left" valign="top" background="images/rep_bot.jpg" style="background-repeat:repeat-y; background-position:top "><div style="padding-left:167px; padding-top:7px"><a href="index-5.html"><img src="images/copyr.jpg" width="156" height="8" border="0"></a></div></td>
+    <td height="100%">&nbsp;</td>
+  </tr>
+</table>
+</asp:contentplaceholder>
+    </div>
+  </form>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+<%@ Page Language="C#" MasterPageFile="~/Main.master" AutoEventWireup="true" CodeFile="Default.aspx.cs"
+    Inherits="_Default" Title="Welcome to Little Italy Vineyard" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="contentplaceholderMain" runat="Server">
+    &nbsp;
+</asp:Content>

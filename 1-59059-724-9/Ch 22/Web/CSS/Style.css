@@ -1,0 +1,100 @@
+﻿body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+td
+{
+	color: #8e783f;
+	font-size: 11px;
+	font-family: Verdana, Tahoma;
+}
+
+td.light
+{
+	color: #f7f0d4;
+}
+
+a {
+	text-decoration: underline;
+	color:#8C713A;
+}
+
+a:hover {
+	color: #4b392e;
+}
+
+a.red 
+{
+	color: #9D0000;
+}
+
+a.red:hover 
+{
+	color: #700000;
+}
+
+.prodBorder
+{
+	border: double 3px #92775C;
+}
+
+input.textfield
+{
+	width: 183px; 
+	height: 21px; 
+	font-family: Verdana, Tahoma;
+	font-size: 11px; 
+	color: #4E3627; 
+	border: 1px solid #BB9F76; 
+	background-color: #e4d0b3;
+	padding-left: 3px; 
+	padding-top: 3px
+}
+
+input.button
+{
+	height: 22px;
+	border: 0px;
+	font-family: Verdana, Tahoma;
+	font-size: 11px;
+	text-align: center;
+	color: #e4d0b3;
+	background-color:Transparent;
+	background-image: url(../images/bgButton.gif);
+}
+
+textarea
+{
+	width: 375px; 
+	overflow: auto;
+	font-family: Verdana, Tahoma;
+	font-size: 11px; 
+	color: #4E3627; 
+	border: 1px solid #BB9F76; 
+	background-color: #e4d0b3;
+	padding-left: 3px; 
+	padding-top: 2px
+}
+
+td.separatorBG
+{
+	 background-image: url(../images/textSeparatorBG.gif); 
+	 background-repeat: repeat-x; 
+	 background-position: center;
+}
+
+td.prodUnderlineBG
+{
+	 background-image: url(../images/underlineBG.gif); 
+	 background-repeat: repeat-x; 
+	 background-position: center;
+}
+
+.ProductListHead
+{
+	font-weight: bold;
+	font-size: 12px;
+}

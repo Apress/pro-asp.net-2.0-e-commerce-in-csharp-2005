@@ -1,0 +1,90 @@
+﻿body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+a {
+	text-decoration: underline;
+	color:#8C713A;
+}
+
+a:hover {
+	color: #4b392e;
+}
+
+input.textfield
+{
+	width: 183px; 
+	height: 19px; 
+	font-family: tahoma;
+	font-size: 10px; 
+	color: #4E3627; 
+	border: 1px solid #BB9F76; 
+	background-color: #e4d0b3;
+	padding-left: 3px; 
+	padding-top: 2px
+}
+
+textarea
+{
+	width: 375px; 
+	overflow: auto;
+	font-family: tahoma;
+	font-size: 10px; 
+	color: #4E3627; 
+	border: 1px solid #BB9F76; 
+	background-color: #e4d0b3;
+	padding-left: 3px; 
+	padding-top: 2px
+}
+
+td
+{
+	color: #8e783f;
+	font-size: 12px;
+	font-family: tahoma;
+}
+
+.light
+{
+	color: #f7f0d4;
+	font-size: 9px;
+	font-family: tahoma;
+}
+
+.ProductListHead
+{
+	font-weight: bold;
+	font-size: 11px;
+}
+
+
+.style1 {
+	color: #f7f0d4;
+	font-size: 9px;
+	font-family: tahoma;
+}
+.style2 {
+	color: #C1AA70;
+	font-size: 9px;
+	font-family: tahoma;
+	font-weight:bold
+}
+.style3 {
+	color: #8e783f;
+	font-size: 9px;
+	font-family: tahoma;
+}
+.style4 {
+	color: #593E2C;
+	font-size: 9px;
+	font-family: tahoma;
+	font-weight:bold
+}
+.style5 {
+	color: #593e2c;
+	font-size: 9px;
+	font-family: tahoma;
+}

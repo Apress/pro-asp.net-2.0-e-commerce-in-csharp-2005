@@ -1,0 +1,7 @@
+bin\Debug\LittleItalyVineyard.DataAccess.dll
+bin\Debug\LittleItalyVineyard.DataAccess.pdb
+bin\Debug\LittleItalyVineyard.Common.dll
+bin\Debug\LittleItalyVineyard.Common.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\LittleItalyVineyard.DataAccess.dll
+obj\Debug\LittleItalyVineyard.DataAccess.pdb

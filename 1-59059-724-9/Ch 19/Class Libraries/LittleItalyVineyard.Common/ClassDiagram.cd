@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="LittleItalyVineyard.Common.Address">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Address.cs</FileName>
+      <HashCode>QAAAUAAAAAAAAAAIIAAACAAACAAAAAAAAAAABAASAAg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LittleItalyVineyard.Common.ContactInformation">
+    <Position X="2.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>ContactInformation.cs</FileName>
+      <HashCode>AAAAAAAAgCAAQAAAAEAAAAAAAAAAAAAAAIAAIAAAARE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LittleItalyVineyard.Common.CreditCard">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CreditCard.cs</FileName>
+      <HashCode>AAAAAAgAAAAAAAAAAEAgAAAAAMgAAAACCAAAAGBABAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LittleItalyVineyard.Common.EndUser">
+    <Position X="10" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>EndUser.cs</FileName>
+      <HashCode>QQQAQEQRAACAAEAAACEQAAAAAgAAAAAKAAAAEEAAAAg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LittleItalyVineyard.Common.EndUserType">
+    <Position X="8" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>EndUserType.cs</FileName>
+      <HashCode>AQAAAAAAAAAAAEAAAAIQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LittleItalyVineyard.Common.Enums">
+    <Position X="6.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enums.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="LittleItalyVineyard.Common.Enums.EndUserType">
+        <TypeIdentifier>
+          <NewMemberFileName>Enums.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+  </Class>
+  <Class Name="LittleItalyVineyard.Common.OrderDetails">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>OrderDetails.cs</FileName>
+      <HashCode>EAAgABAAAAAAAAABAAAAAAAAJAAAAAABAIAAgAAAAAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LittleItalyVineyard.Common.Orders">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Orders.cs</FileName>
+      <HashCode>KAAAgBYAQAAgAgBAARCAAgGgDAhAEAQAiAAEEAAAAAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LittleItalyVineyard.Common.Product">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Product.cs</FileName>
+      <HashCode>EgAAIAAAAQAgAAAFAgACEIQAIQAAAAAAAAABgAAAEAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LittleItalyVineyard.Common.ProductCategory">
+    <Position X="6" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>ProductCategory.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAECEAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LittleItalyVineyard.Common.ShoppingCart">
+    <Position X="2.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ShoppingCart.cs</FileName>
+      <HashCode>EAAAAAAAAAAACAABAAAAEAAAIAAAAABAEAAEkAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>

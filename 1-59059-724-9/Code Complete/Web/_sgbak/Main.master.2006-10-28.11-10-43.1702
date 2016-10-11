@@ -1,0 +1,93 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Main.master.cs" Inherits="Main" %>
+
+<html>
+<head runat="server">
+    <title></title>
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <link href="Css/style.css" type="text/css" rel="stylesheet" />
+    <script language="javascript" src="Scripts/scriptLibrary.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0" style="background-image: url(images/til_1.jpg);">
+            <tr>
+                <td>&nbsp;</td>
+                <td width="490" align="left" valign="top">
+                    <table width="490" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td width="10">&nbsp;</td>
+                            <td width="470" align="left" valign="top">
+                                <table width="470" height="100%" border="0" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td height="164" align="left" valign="top" background="images/top_1.jpg">
+                                            <div style="padding-left: 156px; padding-top: 69px"><a href="Default.aspx"><img src="images/logo.jpg" width="159" height="36" border="0"></a></div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td height="43" align="left" valign="top">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                <tr>
+                                                    <td><img src="images/left.jpg" width="10" height="43"></td>
+                                                    <td><a href="default.aspx"><img src="images/about.jpg" width="114" height="43" border="0"></a></td>
+                                                    <td><a href="winery.aspx"><img src="images/vineyard.jpg" width="112" height="43" border="0"></a></td>
+                                                    <td><a href="Faq.aspx"><img src="images/faq.jpg" width="112" height="43" border="0"></a></td>
+                                                    <td><a href="contactus.aspx"><img src="images/contact.jpg" width="112" height="43" border="0"></a></td>
+                                                    <td><img src="images/right.jpg" width="10" height="43"></td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td height="172" align="right" valign="top" background="images/back_1.jpg">
+                                            <div style="padding-left: 0px; padding-top: 14px; padding-right: 23px; padding-bottom: 0px">
+                                                &nbsp;
+                                                <a href="login.aspx"></a></div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td height="100%" align="left" valign="top">
+                                            <table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0" background="images/rep_3.jpg">
+                                                <tr align="left" valign="top">
+                                                    <td background="images/rep_left.jpg" style="width: 10px">
+                                                        <img src="images/rep_left.jpg" width="10" height="1"></td>
+                                                    <td height="100%">
+                                                        <table width="450" height="100%" border="0" cellpadding="0" cellspacing="0">
+                                                            <tr align="left" valign="top">
+                                                                <td background="images/rep_line.jpg" bgcolor="#F3E9BF" style="background-repeat: repeat-y;
+                                                                    background-position: top left;">
+                                                                    <asp:ContentPlaceHolder ID="contentplaceholderMain" runat="server"></asp:ContentPlaceHolder>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                    <td width="10" background="images/rep_right.jpg"><img src="images/rep_right.jpg" width="10" height="1"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="3" valign="top" align="center"><img src="images/bottom_1.jpg" width="470" height="23"></td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td height="100%">
+                    <table cellpadding="0" cellspacing="0" border="0" width="100%" height="100%">
+                        <tr>
+                            <td style="height: 100%; background-image: url(images/rep_bot.jpg); background-repeat: repeat-y; background-position: center;"></td>
+                        </tr>
+                    </table>
+                </td>
+                <td></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

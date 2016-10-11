@@ -1,0 +1,5 @@
+bin\Debug\LittleItalyVineyard.Common.dll
+bin\Debug\LittleItalyVineyard.Common.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\LittleItalyVineyard.Common.dll
+obj\Debug\LittleItalyVineyard.Common.pdb

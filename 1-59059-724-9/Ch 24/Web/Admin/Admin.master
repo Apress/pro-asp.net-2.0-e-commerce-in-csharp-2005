@@ -1,0 +1,51 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin.master.cs" Inherits="Admin_Admin" %>
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+    <link href="../CSS/Style.css" type="text/css" rel="stylesheet">
+</head>
+<body style="text-align: center" background="../Images/til_1.jpg">
+    <form id="form1" runat="server">
+        <br />
+    
+        <table border="0" cellpadding="0" cellspacing="0" width="90%">
+            <tr>
+                <td style="width: 100%; background-color: #f3e9bf; text-align: center">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 100%; background-color: #f3e9bf; text-align: center">
+                    <img border="0" height="36" src="../images/logo.jpg" width="159" /><br />
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 100%; background-color: #f3e9bf; text-align: center">
+                    <strong>Administrative Control Panel</strong></td>
+            </tr>
+            <tr>
+                <td style="width: 100%">
+                <div class="shadetabs">
+
+            <ul>
+            <li runat="server" id="Products"><a href="Products.aspx">Products</a></li>
+            <li runat="server" id="Orders"><a href="Orders.aspx">Orders</a></li>
+            <li runat="server" id="Newsletter"><a href="Newsletter.aspx">Newsletter</a></li>
+            </ul>
+
+
+            </div>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 100%; text-align: center;">
+            <div style="background-color: #f3e9bf; width: 100%; text-align: center; height: 205px;">
+                <asp:contentplaceholder id="contentplaceholderAdmin" runat="server">
+                </asp:contentplaceholder>
+            </div>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

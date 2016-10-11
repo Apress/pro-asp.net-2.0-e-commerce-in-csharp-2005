@@ -1,0 +1,70 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Data;
+
+using LittleItalyVineyard.Common;
+
+namespace LittleItalyVineyard.DataAccess.Select
+{
+	public class ProductCategorySelectData : DataAccessBase
+	{
+		private Product _product;
+
+		public ProductCategorySelectData()
+		{
+			base.StoredProcedureName = StoredProcedure.Name.ProductCategory_Select.ToString();
+		}
+
+		public DataSet Get()
+		{
+			DataSet ds;
+
+			DataBaseHelper dbhelper = new DataBaseHelper( base.StoredProcedureName );
+			ds = dbhelper.Run( base.ConnectionString );
+
+			return ds;
+		}
+
+		public Product Product
+		{
+			get { return _product; }
+			set { _product = value; }
+		}
+	}
+
+	public class ProductCategorySelectDataParameters
+	{
+		private Product _product;
+		private SqlParameter[] _parameters;
+
+		public ProductCategorySelectDataParameters( Product product )
+		{
+			Product = product;
+			Build();
+		}
+
+		private void Build()
+		{
+
+			SqlParameter[] parameters =
+			{
+			    new SqlParameter( "@" , "" )
+			};
+
+			Parameters = parameters;
+		}
+
+		public Product Product
+		{
+			get { return _product; }
+			set { _product = value; }
+		}
+
+		public SqlParameter[] Parameters
+		{
+			get { return _parameters; }
+			set { _parameters = value; }
+		}
+	}
+}

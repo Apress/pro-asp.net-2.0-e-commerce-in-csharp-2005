@@ -1,0 +1,20 @@
+9/10/2006
+System.DivideByZeroException: Attempted to divide by zero.
+   at Winery.Page_Load(Object sender, EventArgs e) in c:\VS2005 Web Projects\LittleItalyVineyards\Web\Winery.aspx.cs:line 21
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+9/10/2006
+System.DivideByZeroException: Attempted to divide by zero.
+   at Winery.Page_Load(Object sender, EventArgs e) in c:\VS2005 Web Projects\LittleItalyVineyards\Web\Winery.aspx.cs:line 21
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
